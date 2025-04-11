@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0b0c10;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(to right, #06b6d4, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes blob {
+    0%, 100% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+      transform: translate(30px, -20px);
+    }
+  }
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
